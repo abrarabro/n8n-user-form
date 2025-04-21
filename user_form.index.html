@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Data Report</title>
+</head>
+<body>
+    <h1>Application Data Report</h1>
+    <form action="https://your-n8n-instance-url/webhook/user-input" method="POST">
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" name="startDate" required><br><br>
+        
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" name="endDate" required><br><br>
+        
+        <label for="nationality">Nationality (Country Name):</label>
+        <input type="text" id="nationality" name="nationality" required><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
